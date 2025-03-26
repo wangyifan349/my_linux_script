@@ -264,8 +264,32 @@ sudo apt install -y font-manager
 # 安装Conky（桌面系统监视器）
 sudo apt install -y conky
 
-
-
+# 安装 Kleopatra，图形化 GPG 密钥管理工具，以及 GnuPG (gnupg)，用于数据加密和数字签名
+sudo apt install -y kleopatra gnupg
+# 安装 Cryptsetup，用于加密磁盘分区
+sudo apt install -y cryptsetup
+# 安装 Hashcat，强大的密码恢复工具
+sudo apt install -y hashcat
+# 安装 OpenSSH 客户端和服务器，用于安全远程登录和文件传输
+sudo apt install -y openssh-client openssh-server
+# 安装 WireGuard，现代的 VPN 协议，提供高效的加密
+sudo apt install -y wireguard
+# 安装截图工具（gnome-screenshot、shutter、flameshot、kazam、gimp）
+sudo apt install -y gnome-screenshot shutter flameshot kazam gimp
+# 安装 GParted，强大的图形化分区编辑器
+sudo apt install -y gparted
+# 安装 Parted，命令行分区管理工具
+sudo apt install -y parted
+# 安装 LVM (Logical Volume Manager)，用于管理逻辑卷
+sudo apt install -y lvm2
+# 安装 util-linux，包含 fdisk 等工具
+sudo apt install -y util-linux  # fdisk 通常已经包含在 util-linux 包中
+# 安装 rsync，用于备份和同步文件
+sudo apt install -y rsync
+# 安装 UFW (Uncomplicated Firewall)，简单易用的防火墙工具
+sudo apt install -y ufw
+# 安装 Wireshark，网络协议分析工具
+sudo apt install -y wireshark
 
 
 
