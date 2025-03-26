@@ -298,3 +298,10 @@ EOF
 sudo systemctl restart systemd-resolved
 sudo systemctl enable systemd-resolved
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+
+sudo apt update 
+
+
+sudo apt install -y build-essential gcc g++ golang rustc python3 python3-pip 
+
+pip3 install opencv-python-headless opencv-contrib-python pillow numpy beautifulsoup4 requests lxml
